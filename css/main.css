@@ -57,7 +57,15 @@
   font-size: 30px !important;
   margin-bottom: 40px;
 }
+.product {
+  margin-bottom: 10px !important;
 }
+.content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+}
+
 
 @media only screen and (max-width: 600px) {
   .menu-carousel .carousel-caption {
@@ -526,4 +534,11 @@ h3 {
   left: 0;
   text-align: center;
   width: 100%;
+}
+.banner-row {
+  margin: 30px 0;
+  text-align: center;
+}
+.banner-row img {
+  margin: 5px 0;
 }
