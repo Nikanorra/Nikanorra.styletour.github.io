@@ -1,6 +1,10 @@
 
 /*Large devices, Wide Screens*/
 @media only screen and (max-width: 1200px) {
+  .sidebar .carousel.fade,
+  .sidebar .banner  {
+    margin-right: 30px;
+  }
 }
 
 /*Medium devices, Desktops*/
@@ -23,6 +27,12 @@
   position: relative;
   right: 0;
   background-color: transparent;
+}
+.sidebar {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-right: none !important;
+  margin-right: 0;
 }
 
 }
@@ -47,9 +57,8 @@
   font-size: 30px !important;
   margin-bottom: 40px;
 }
-
-
 }
+
 @media only screen and (max-width: 600px) {
   .menu-carousel .carousel-caption {
     top: 100px !important;
@@ -58,6 +67,12 @@
     margin-bottom: 20px !important;
   }
 }
+@media only screen and (max-width: 540px) {
+  .sidebar .col-6 {
+    min-width: 100%;
+  }
+}
+
 /*Extra small devices, Phones*/
 @media only screen and (max-width: 480px) {
   .menu-carousel .carousel-caption .btn-red {
@@ -273,7 +288,7 @@ h3 {
   line-height: 50px;
   right: 10px;
   cursor: pointer;
-  display: none !important;;
+  display: none !important;
   border-radius: 3px;
   border: 1px solid white;
   font-size: 25px;
@@ -286,3 +301,134 @@ h3 {
   transition-duration: 3s;
   font-weight: bold;
 } */
+
+
+
+
+
+/* --------content--------*/
+.maine-slogan {
+  background-color: white;
+  text-align: center;
+  padding: 50px 0;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 3px solid #dadada;
+}
+.maine-slogan h1 {
+  font-size: 30px !important;
+  margin: 0 auto;
+}
+
+/*Виджеты сайдбара*/
+.sidebar {
+  padding-top: 20px;
+  padding-bottom: 70px;
+  border-right: 3px solid #dadada;
+}
+.widget {
+  border-bottom: 3px solid #dadada;
+  padding: 0;
+}
+.widget h3,
+.content h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content {
+  padding-top: 20px;
+}
+.widget ul {
+  list-style: none;
+  padding-left: 0;
+}
+.widget ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 30px;
+  color: black;
+  display: block;
+}
+.more a {
+  color: #358acd !important;
+}
+/*slide sitebar*/
+.sidebar .carousel {
+  margin-bottom: 20px;
+}
+.sidebar .carousel-caption-sitebar {
+  background-color: white;
+  border-bottom: 1px solid #e1e1e1;
+}
+.sidebar .carousel-caption-sitebar div {
+  padding: 20px;
+}
+.sidebar .carousel-caption-sitebar h5 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}
+.sidebar .carousel-caption-sitebar p {
+  margin-bottom: 0;
+  font-size: 12px;
+  text-align: center;
+  color: #5b5b5b;
+  margin-bottom: 40px;
+}
+/*индикаторы карусели в сайдбаре*/
+.carousel-indicators {
+  background-color: white;
+  bottom: 0;
+  width: auto;
+  margin: 0;
+  padding: 10px 0;
+  border-top: 1px solid #e1e1e1;
+}
+.sidebar .carousel-indicators li{
+  background-color: #5b5b5b;
+  margin: 0 3px;
+}
+
+/*banner*/
+.sidebar .banner {
+  background-color: white;
+}
+.sidebar .banner p {
+  background-color: white;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+  line-height: 20px;
+}
+.banner .btn.btn-red.my-2.my-sm-0 {
+    margin-top: 20px !important;
+}
+.sidebar .banner p span {
+  font-size: 28px;
+  font-weight: bold;
+}
+.banner img {
+  margin-bottom: 35px;
+}
+.sidebar .banner .btn.btn-red.my-2.my-sm-0 {
+  padding: 5px 30px;
+  font-size: 18px !important;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+}
+.banner {
+  padding-bottom: 20px;
+}
+/*about*/
+.sidebar .about h3 {
+  margin: 20px 0;
+}
+.sidebar .about p {
+  color: #585858;
+}
+.sidebar .about span {
+  color: #0a94b2;
+}
