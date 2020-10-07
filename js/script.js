@@ -1,4 +1,6 @@
-
+$(function() {
+  $('#elastislide').elastislide();
+})
 //в сайдбаре слайдер. Измеряем ширину картинки, по первой картинке задаем ширину остальных картинко в слайдере и по ширине картинок выравниваем блок с текстом
 $(window).load(function() {
   let carouselCaptionWidth = $('#carouselSidebar .active img').width();

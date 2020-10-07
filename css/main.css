@@ -577,3 +577,27 @@ h3 {
   background-color: #d96340;
 }
 /*footer slider*/
+.bottom-content .container .form-inline {
+  justify-content: flex-start !important;
+  padding: 0 !important;
+  width: 100%
+}
+.bottom-slider {
+   background-color: white;
+   padding: 35px 0;
+   border-bottom: none !important;
+}
+.elastislide-wrapper {
+  box-shadow: none;
+}
+.elastislide-wrapper nav span {
+  background: black url("../img/nav.png") no-repeat scroll 4px 3px;
+}
+.elastislide-horizontal nav span {
+    left: 0; /*обнуление отступов*/
+}
+.elastislide-horizontal nav span.elastislide-next {
+  right: 0; /*обнуление отступов*/
+}
+.elastislide-horizontal nav span {
+}
