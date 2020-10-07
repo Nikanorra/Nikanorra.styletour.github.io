@@ -610,8 +610,14 @@ h3 {
     display: inline;
     margin-bottom: 0;
   }
+  .sidebar .about {
+    display: inline-block;
+  }
+  .sidebar .about {
+    max-width: 95% !important;
+    padding-top: 50px;
+  }
 }
-
 
 
 @media only screen and (max-width: 600px) {
